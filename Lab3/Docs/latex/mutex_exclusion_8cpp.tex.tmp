@@ -1,0 +1,48 @@
+\hypertarget{mutex_exclusion_8cpp}{}\section{/home/jessica/\+C\+D\+D\+Labs/\+Lab3/mutex\+Exclusion.cpp File Reference}
+\label{mutex_exclusion_8cpp}\index{/home/jessica/\+C\+D\+D\+Labs/\+Lab3/mutex\+Exclusion.\+cpp@{/home/jessica/\+C\+D\+D\+Labs/\+Lab3/mutex\+Exclusion.\+cpp}}
+{\ttfamily \#include \char`\"{}Semaphore.\+h\char`\"{}}\\*
+{\ttfamily \#include $<$iostream$>$}\\*
+{\ttfamily \#include $<$thread$>$}\\*
+{\ttfamily \#include $<$mutex$>$}\\*
+Include dependency graph for mutex\+Exclusion.\+cpp\+:
+% FIG 0
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{mutex_exclusion_8cpp_a4c5766e441fdc278b5090c0fdf30ff8e}{taskA} ()
+\item 
+int \hyperlink{mutex_exclusion_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{main} ()
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+std\+::mutex \hyperlink{mutex_exclusion_8cpp_aa73e018b04368e7afaded77ef0ac69db}{m}
+\item 
+int \hyperlink{mutex_exclusion_8cpp_ad43c3812e6d13e0518d9f8b8f463ffcf}{count} = 0
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\index{mutex\+Exclusion.\+cpp@{mutex\+Exclusion.\+cpp}!main@{main}}
+\index{main@{main}!mutex\+Exclusion.\+cpp@{mutex\+Exclusion.\+cpp}}
+\subsubsection[{\texorpdfstring{main()}{main()}}]{\setlength{\rightskip}{0pt plus 5cm}int main (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{mutex_exclusion_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{}\label{mutex_exclusion_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}
+$<$ Launch the threads \index{mutex\+Exclusion.\+cpp@{mutex\+Exclusion.\+cpp}!taskA@{taskA}}
+\index{taskA@{taskA}!mutex\+Exclusion.\+cpp@{mutex\+Exclusion.\+cpp}}
+\subsubsection[{\texorpdfstring{task\+A()}{taskA()}}]{\setlength{\rightskip}{0pt plus 5cm}void taskA (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{mutex_exclusion_8cpp_a4c5766e441fdc278b5090c0fdf30ff8e}{}\label{mutex_exclusion_8cpp_a4c5766e441fdc278b5090c0fdf30ff8e}
+
+
+\subsection{Variable Documentation}
+\index{mutex\+Exclusion.\+cpp@{mutex\+Exclusion.\+cpp}!count@{count}}
+\index{count@{count}!mutex\+Exclusion.\+cpp@{mutex\+Exclusion.\+cpp}}
+\subsubsection[{\texorpdfstring{count}{count}}]{\setlength{\rightskip}{0pt plus 5cm}int count = 0}\hypertarget{mutex_exclusion_8cpp_ad43c3812e6d13e0518d9f8b8f463ffcf}{}\label{mutex_exclusion_8cpp_ad43c3812e6d13e0518d9f8b8f463ffcf}
+\index{mutex\+Exclusion.\+cpp@{mutex\+Exclusion.\+cpp}!m@{m}}
+\index{m@{m}!mutex\+Exclusion.\+cpp@{mutex\+Exclusion.\+cpp}}
+\subsubsection[{\texorpdfstring{m}{m}}]{\setlength{\rightskip}{0pt plus 5cm}std\+::mutex m}\hypertarget{mutex_exclusion_8cpp_aa73e018b04368e7afaded77ef0ac69db}{}\label{mutex_exclusion_8cpp_aa73e018b04368e7afaded77ef0ac69db}
