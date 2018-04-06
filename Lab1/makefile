@@ -4,4 +4,4 @@ cFiles = signal.cpp Semaphore.cpp
 hFiles = Semaphore.h
 
 all: $(cFiles) $(hFiles) 
-	$(cc) $(cFlags) *.cpp -o sigexe
+	$(cc) $(cFlags) *.cpp -o signal
